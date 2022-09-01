@@ -1,0 +1,27 @@
+{
+  "name": "socket-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulo-sobrinho/Socket-IO.git"
+  },
+  "keywords": [
+    "socket",
+    "nodejs",
+    "express"
+  ],
+  "author": "Rômulo Sobrinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romulo-sobrinho/Socket-IO/issues"
+  },
+  "homepage": "https://github.com/romulo-sobrinho/Socket-IO#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
