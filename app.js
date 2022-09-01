@@ -4,4 +4,8 @@ const path = require('path');
 const app = express();
 
 
-app.listen()
+app.use('/', express.static(path.join(__dirname, 'public')));
+
+app.listen(process.env.PORT, () => {
+  console.log(`Server running on PORT: ${process.env.PORT}`);
+})
